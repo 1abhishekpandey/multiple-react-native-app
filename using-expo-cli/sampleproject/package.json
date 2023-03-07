@@ -9,14 +9,25 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@rudderstack/rudder-integration-amplitude-react-native": "file:../../../rudderstack-rudder-integration-amplitude-react-native-1.0.5.tgz",
+    "@rudderstack/rudder-integration-appcenter-react-native": "file:../../../rudderstack-rudder-integration-appcenter-react-native-1.0.6.tgz",
+    "@rudderstack/rudder-integration-appsflyer-react-native": "file:../../../rudderstack-rudder-integration-appsflyer-react-native-1.5.4.tgz",
+    "@rudderstack/rudder-integration-braze-react-native": "file:../../../rudderstack-rudder-integration-braze-react-native-1.0.6.tgz",
+    "@rudderstack/rudder-integration-clevertap-react-native": "file:../../../rudderstack-rudder-integration-clevertap-react-native-1.0.6.tgz",
+    "@rudderstack/rudder-integration-firebase-react-native": "file:../../../rudderstack-rudder-integration-firebase-react-native-1.0.13.tgz",
+    "@rudderstack/rudder-integration-moengage-react-native": "file:../../../rudderstack-rudder-integration-moengage-react-native-1.0.5.tgz",
+    "@rudderstack/rudder-integration-singular-react-native": "file:../../../rudderstack-rudder-integration-singular-react-native-1.0.5.tgz",
+    "@rudderstack/rudder-sdk-react-native": "file:../../../rudderstack-rudder-sdk-react-native-1.6.2.tgz",
     "expo": "~48.0.5",
     "expo-splash-screen": "~0.18.1",
     "expo-status-bar": "~1.4.4",
+    "path": "^0.12.7",
     "react": "18.2.0",
     "react-native": "0.71.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "react-native-dotenv": "^3.4.8"
   },
   "private": true
 }

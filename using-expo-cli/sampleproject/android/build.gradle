@@ -38,5 +38,7 @@ allprojects {
         google()
         mavenCentral()
         maven { url 'https://www.jitpack.io' }
+        maven { url 'https://maven.singular.net/' }
+        maven { url "https://appboy.github.io/appboy-android-sdk/sdk" }
     }
 }
